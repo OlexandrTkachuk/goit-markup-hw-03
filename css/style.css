@@ -343,6 +343,7 @@ ul {
     font-weight: 500;
     line-height: 1.62;
     font-size: 16px;
+    letter-spacing: inherit;
 
     cursor: pointer;
     border-radius: 4px;
