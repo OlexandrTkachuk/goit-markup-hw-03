@@ -22,13 +22,15 @@ h3,
 h4,
 h5,
 h6,
-p, {
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 img {
-    margin-bottom: -4px;
+    display: block;
+    /* max-width: 100%;
+    height: auto; */
 }
 
 ul {
@@ -245,7 +247,7 @@ ul {
     font-size: 36px;
     line-height: 1.16;
 
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 
 .work-list {
@@ -260,10 +262,11 @@ ul {
 /* Наша команда */
 .section.team {
     background-color: #F5F4FA;
-}
+}   
 
 .team-list {
     display: flex;
+    width: 270px;
 }
 
 .team-list > .item {
@@ -340,7 +343,6 @@ ul {
     line-height: 1.71;
 }
 
-
 /* Кнопки-портфолио */
 .button {
     background-color: #F5F4FA;
@@ -388,16 +390,28 @@ ul {
 .galery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .galery .item {
     border: 1px solid #EEEEEE;
+    width: calc((100% - 60px) / 3);
+
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
-/* Обирає перші 6-ть елементів */
-.galery .item:nth-child(-n+6) {
-    margin-bottom: 30px;
+/* Вирівняв картинку в рівень з бордером */
+.galery .item img {
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.galery .item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.galery .item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
 }
 
 .galery-title {
