@@ -83,7 +83,6 @@ ul {
     margin-right: 93px;
     margin-top: 24px;
     margin-bottom: 25px;
-
 }
 
 .blue-logo-part {
@@ -107,6 +106,8 @@ ul {
 
     margin-top: 32px;
     margin-bottom: 32px;
+
+    padding: 20px 0;
 }
 
 .site-nav .link:hover,
@@ -133,6 +134,7 @@ ul {
 
     margin-top: 32px;
     margin-bottom: 32px;
+    padding: 20px 0;
 }
 
 .contact-list .link:hover,
