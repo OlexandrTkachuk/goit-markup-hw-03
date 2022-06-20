@@ -59,6 +59,7 @@ ul {
 
 /* HEADER */
 .header {
+    height: 80px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -337,8 +338,6 @@ ul {
 }
 
 .company-address {
-    display: inline-block;
-
     color: var(--white-color);
 
     font-style: normal;
